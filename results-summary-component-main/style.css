@@ -16,13 +16,14 @@ body{
     display: flex;
     justify-content: center;
     border-radius: 20px;
-    width: 600px;
+    width: 700px;
     box-shadow: 5px 20px 30px 10px rgba(0, 0, 0, 0.123);
 }
 
 h1{
     font-size: 18px;
     font-weight: 500;
+    margin-top: 35px;
 }
 
 h2{
@@ -34,7 +35,7 @@ h2{
     width: 50%;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 20px;
-    padding: 30px 50px;
+    /* padding: 30px 50px; */
     text-align: center;
 }
 
@@ -68,11 +69,15 @@ h2{
 
 .lefttext p {
     color: hsl(241, 100%, 89%);
+    margin: 0 50px;
 }
 
 .summary{
     width: 50%;
     padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
