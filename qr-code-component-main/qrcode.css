@@ -1,0 +1,45 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: outfit, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 15px;
+    margin: 0px;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 375px;
+    text-align: center;
+    border-width: 500px;
+    padding: 1%;
+    margin: 0px, auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px hsl(220, 15%, 55%);
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+img {
+    width: 375px;
+    height: 375px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    padding: 2% 4%;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    padding: 0% 4%;
+}
