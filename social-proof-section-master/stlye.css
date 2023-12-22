@@ -107,6 +107,11 @@ h1 {
     background-color: hsl(300, 43%, 22%);
     border-radius: 7px;
     padding: 2rem;
+    transition: 0.4s;
+}
+
+.card:hover{
+    scale: 1.05;
 }
 
 .card:first-of-type {
@@ -184,15 +189,17 @@ h1 {
 
     .stars {
         width: 100%;
-        align-items: normal;
+        align-items: center;
         gap: 1rem;
     }
 
     .stars div {
-        width: auto;
+        width: 100%;
         margin: 0 !important;
         align-items: center;
         flex-direction: column;
+        box-sizing: border-box;
+        max-width: none;
     }
 
     .starImage {padding: 0 0 1rem 0;}
