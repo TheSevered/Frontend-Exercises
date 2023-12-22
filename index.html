@@ -1,1 +1,154 @@
-<h1>Test</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Exercises</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            text-align: center;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        section {
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0 auto;
+            /* Center content on desktop */
+            max-width: 800px;
+            /* Set a max-width for desktop */
+        }
+
+        h1 {
+            color: #fff;
+            margin: 0;
+        }
+
+        .project-container {
+            flex-basis: calc(50% - 1rem);
+            /* Adjust the width of the container */
+            box-sizing: border-box;
+        }
+
+        .project-button,
+        .project-description {
+            text-align: left;
+        }
+
+        .project-button {
+            display: block;
+            margin: 0.5rem 0;
+            padding: 1.5rem 2rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007BFF;
+            /* Primary color */
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-button:hover {
+            background-color: #0056b3;
+            /* Hover color */
+        }
+
+        .project-description {
+            margin-top: 1rem;
+        }
+
+        .project-description h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .project-description p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+
+            /* Mobile styles */
+            .project-container {
+                flex-basis: 100%;
+                /* Full width on mobile */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Frontend Exercises</h1>
+    </header>
+
+    <section>
+        <div class="project-container">
+            <a class="project-button" href="https://thesevered.github.io/Frontend-Exercises/qr-code-component-main">QR
+                Code Component</a>
+            <div id="project1" class="project-description">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="project-container">
+            <a class="project-button"
+                href="https://thesevered.github.io/Frontend-Exercises/results-summary-component-main">Results Summary
+                Component</a>
+            <div id="project2" class="project-description">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="project-container">
+            <a class="project-button" href="https://thesevered.github.io/Frontend-Exercises/PriceTableStarter">Price
+                Table</a>
+            <div id="project3" class="project-description">
+                <p></p>
+            </div>
+        </div>
+        <div class="project-container">
+            <a class="project-button" href="https://thesevered.github.io/Frontend-Exercises/faq-accordion-main">Faq
+                Accordion</a>
+            <div id="project3" class="project-description">
+                <p></p>
+            </div>
+        </div>
+        <div class="project-container">
+            <a class="project-button" href="https://thesevered.github.io/Frontend-Exercises/social-proof-section-master">Social Proof Section</a>
+            <div id="project3" class="project-description">
+                <p></p>
+            </div>
+        </div>
+        <div class="project-container">
+            <a class="project-button" href="https://thesevered.github.io/Frontend-Exercises/MuseumofCandy">Museum of Candy</a>
+            <div id="project3" class="project-description">
+                <p></p>
+            </div>
+        </div>
+        <!-- Add more project containers as needed -->
+    </section>
+
+    <footer>This home page is created with ChatGPT for convenience.</footer>
+
+</body>
+
+</html>
