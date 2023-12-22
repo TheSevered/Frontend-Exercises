@@ -156,6 +156,7 @@ h1 {
 .profile_review {
     color: hsl(300, 24%, 96%);
     line-height: 1.2;
+    font-weight: 500;
 }
 
 @media(max-width: 900px) {
