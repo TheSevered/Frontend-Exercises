@@ -1,0 +1,82 @@
+body{
+    font-family: 'Figtree', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    overflow: hidden;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px black;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 0px black;
+}
+
+.card:hover h1{
+    color: hsl(47, 88%, 63%);
+    transition: 0.3s;
+}
+
+.main_image{
+    justify-content: center;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.tag span{
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.publish_date{
+    font-weight: 600;
+}
+
+h1{
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 0.2rem 0;
+}
+
+h1+p{
+    color: hsl(0, 0%, 50%);
+line-height: 1.8;
+font-size: 1.2rem;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+}
+
+.author img{
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}
+
+.author span{
+    font-weight: 800;
+}
+
+@media(max-width: 900px) {
+    .card{
+        margin: 0 3rem;
+    }
+}
