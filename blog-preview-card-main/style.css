@@ -5,7 +5,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: hsl(47, 88%, 63%);
-    overflow: hidden;
+    margin: 0;
 }
 
 .card{
@@ -19,6 +19,7 @@ body{
     box-shadow: 5px 5px 0px black;
     transition: box-shadow 0.3s;
     cursor: pointer;
+    scale: 0.8;
 }
 
 .card:hover{
@@ -77,6 +78,6 @@ font-size: 1.2rem;
 
 @media(max-width: 900px) {
     .card{
-        margin: 0 3rem;
+        margin: 0 2rem;
     }
 }
